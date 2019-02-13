@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-collections-3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-io-2.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ezmorph-1.0.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/freemarker-2.3.22.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/javassist-3.11.0.GA.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/jsonlib-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/jstl-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/log4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mybatis-3.4.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ognl-3.0.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.30.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/xwork-core-2.3.30.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mybatis-spring-1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-lang-2.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ueditor-mini.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar!/" />
+    <conelement value="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/familyquery.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/population.xml</file>
+          <file>file://$MODULE_DIR$/src/beans.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/login.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/organization.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/acc.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/countrypoverty.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/countycommittee.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/outgoing.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/release.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/rule.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/communication.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/message.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/article.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/flow.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/building.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/finance.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/menu.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/village.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/officer.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/land_industry.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/dictionary.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/statistics.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/countryMessage.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/floating.xml</file>
+          <file>file://$MODULE_DIR$/src/com/buba/rural/springConfig/pws.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/build/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.8.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections-3.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-collections-3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload-1.3.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-io-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-1.6.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ezmorph-1.0.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ezmorph-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="freemarker-2.3.22.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/freemarker-2.3.22.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist-3.11.0.GA.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/javassist-3.11.0.GA.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsonlib-2.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/jsonlib-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jstl-1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/jstl-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/log4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mybatis-3.4.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mybatis-3.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.12-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ognl-3.0.19.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ognl-3.0.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-aop-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-aspects-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-beans-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-context-support-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-core-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-expression-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-jdbc-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-orm-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-tx-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-web-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring-webmvc-4.0.0.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="struts2-core-2.3.30.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.30.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xwork-core-2.3.30.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/xwork-core-2.3.30.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mybatis-spring-1.3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/mybatis-spring-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="struts2-spring-plugin-2.3.24.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.org.aopalliance-1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang-2.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-lang-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang3-3.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ueditor-mini.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/ueditor-mini.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-fileupload-1.2.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>
