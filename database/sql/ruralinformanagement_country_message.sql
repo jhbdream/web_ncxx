@@ -1,0 +1,2 @@
+INSERT INTO ruralinformanagement.country_message (id, cdzbsj, bpld, jswmjsqk, cdzzqk, cjzdqk, qyhzsqk, cztzqk, bcczdzywt, operate_time, operator, cid) VALUES ('854a7b94-9201-48bd-8ea3-3acb2a7422fd', '1', '1', '1', '1', '1', '1', '1', '1', 'adminuser', '2019-02-14 21:14:57', '5');
+INSERT INTO ruralinformanagement.country_message (id, cdzbsj, bpld, jswmjsqk, cdzzqk, cjzdqk, qyhzsqk, cztzqk, bcczdzywt, operate_time, operator, cid) VALUES ('9cf5eaad-2c7b-4314-82cd-193e7f195891', '1', '1', '1', '1', '1', '1', '1', '1', 'adminuser', '2019-02-14 21:15:03', '5');

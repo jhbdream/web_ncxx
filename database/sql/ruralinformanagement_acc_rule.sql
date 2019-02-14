@@ -1,0 +1,1 @@
+INSERT INTO ruralinformanagement.acc_rule (aid, rid) VALUES ('1', '1');

@@ -1,0 +1,2 @@
+INSERT INTO ruralinformanagement.country_committee (id, name, sex, birthday, whcd, lxfs, rxzsj, rznx, wyxm, state, zw, oprate_time, operator, cid) VALUES ('ab5dc39c-2d95-4620-8d29-082cbcfe595f', '', '', '', '', '', '', '', '', '', '', 'adminuser', '2019-02-14 20:00:37', '5');
+INSERT INTO ruralinformanagement.country_committee (id, name, sex, birthday, whcd, lxfs, rxzsj, rznx, wyxm, state, zw, oprate_time, operator, cid) VALUES ('ca1232f0-9347-41fb-a945-6d1564619199', '', '', '', '', '', '', '', '', '', '', 'adminuser', '2019-02-14 20:00:29', '5');

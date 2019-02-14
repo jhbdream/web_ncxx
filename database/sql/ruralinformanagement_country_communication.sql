@@ -1,0 +1,1 @@
+INSERT INTO ruralinformanagement.country_communication (id, is_ydxh, is_ltxh, is_dxxh, is_qcfg, operate_time, operator, cid) VALUES ('d0a52e69-f469-402f-9e7c-802fa2f601ae', '1', '1', '1', '1', '2019-02-14 21:16:39', 'adminuser', '5');

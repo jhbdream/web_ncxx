@@ -1,0 +1,1 @@
+INSERT INTO ruralinformanagement.family_vehicle (id, car_type, car_brand, car_price, car_getMode, car_license_plate, fid) VALUES ('a3c00fb4-3059-11e9-a077-4c3488ba4767', null, '', null, '', '', 'beb18234-2dc9-46e0-9ef7-abb33a710071');

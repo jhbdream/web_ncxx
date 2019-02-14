@@ -1,0 +1,3 @@
+INSERT INTO ruralinformanagement.family_message (id, hzxm, hjd, xjdz, jtry, wfwj, aqsc, aqyh, zls, cid) VALUES ('118f35d7-39f5-4d2f-8bb7-7cf45e8d11bf', 'jhn', '', '', '', '', null, '', null, '5');
+INSERT INTO ruralinformanagement.family_message (id, hzxm, hjd, xjdz, jtry, wfwj, aqsc, aqyh, zls, cid) VALUES ('729f9569-7349-45dd-a855-d63dc539532e', 'jhn', '', '', '', '', null, '', null, '5');
+INSERT INTO ruralinformanagement.family_message (id, hzxm, hjd, xjdz, jtry, wfwj, aqsc, aqyh, zls, cid) VALUES ('beb18234-2dc9-46e0-9ef7-abb33a710071', '', '', '', '', '', null, '', null, '5');
