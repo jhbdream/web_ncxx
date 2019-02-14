@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <dicid>1</dicid>
+  <dictypecode>sex</dictypecode>
+  <dictypename>性别</dictypename>
+  <dicname>男</dicname>
+  <dicvalue>1</dicvalue>
+  <isenable>1</isenable>
+  <comm>1234</comm>
+</row>
+<row>
+  <dicid>10</dicid>
+  <dictypecode>whcdState</dictypecode>
+  <dictypename>文化程度</dictypename>
+  <dicname>高中</dicname>
+  <dicvalue>3</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>11</dicid>
+  <dictypecode>whcdState</dictypecode>
+  <dictypename>文化程度</dictypename>
+  <dicname>大学</dicname>
+  <dicvalue>4</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>12</dicid>
+  <dictypecode>flowState</dictypecode>
+  <dictypename>流动状态</dictypename>
+  <dicname>流入</dicname>
+  <dicvalue>0</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>13</dicid>
+  <dictypecode>flowState</dictypecode>
+  <dictypename>流动状态</dictypename>
+  <dicname>流出</dicname>
+  <dicvalue>1</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>2</dicid>
+  <dictypecode>sex</dictypecode>
+  <dictypename>性别</dictypename>
+  <dicname>女</dicname>
+  <dicvalue>0</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>3</dicid>
+  <dictypecode>hyState</dictypecode>
+  <dictypename>婚姻状况</dictypename>
+  <dicname>已婚 </dicname>
+  <dicvalue>0</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>4</dicid>
+  <dictypecode>hyState</dictypecode>
+  <dictypename>婚姻状况</dictypename>
+  <dicname>未婚</dicname>
+  <dicvalue>1</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>5</dicid>
+  <dictypecode>zzmm</dictypecode>
+  <dictypename>政治面貌</dictypename>
+  <dicname>群众</dicname>
+  <dicvalue>0</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>5900e9cb-305b-11e9-a077-4c3488ba4767</dicid>
+  <dictypecode>123</dictypecode>
+  <dictypename>123</dictypename>
+  <dicname>1213</dicname>
+  <dicvalue>123</dicvalue>
+  <isenable>1</isenable>
+  <comm>nihao</comm>
+</row>
+<row>
+  <dicid>6</dicid>
+  <dictypecode>zzmm</dictypecode>
+  <dictypename>政治面貌</dictypename>
+  <dicname>党员</dicname>
+  <dicvalue>1</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>7</dicid>
+  <dictypecode>whcdState</dictypecode>
+  <dictypename>文化程度</dictypename>
+  <dicname>文盲</dicname>
+  <dicvalue>0</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>8</dicid>
+  <dictypecode>whcdState</dictypecode>
+  <dictypename>文化程度</dictypename>
+  <dicname>小学</dicname>
+  <dicvalue>1</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+<row>
+  <dicid>9</dicid>
+  <dictypecode>whcdState</dictypecode>
+  <dictypename>文化程度</dictypename>
+  <dicname>初中</dicname>
+  <dicvalue>2</dicvalue>
+  <isenable>1</isenable>
+  <comm>NULL</comm>
+</row>
+</data>

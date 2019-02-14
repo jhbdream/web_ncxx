@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <id>32740af9-304d-11e9-a077-4c3488ba4767</id>
+  <state></state>
+  <name></name>
+  <sex></sex>
+  <age></age>
+  <id_card></id_card>
+  <hjd></hjd>
+  <hyzk></hyzk>
+  <zzmm></zzmm>
+  <whcd></whcd>
+  <totime></totime>
+  <towhy></towhy>
+  <zzdjcshy></zzdjcshy>
+  <cid>5</cid>
+</row>
+<row>
+  <id>385f8220-302b-11e9-a077-4c3488ba4767</id>
+  <state>0</state>
+  <name>张三</name>
+  <sex>1</sex>
+  <age>21</age>
+  <id_card>152624199911111234</id_card>
+  <hjd>内蒙古</hjd>
+  <hyzk>0</hyzk>
+  <zzmm>0</zzmm>
+  <whcd>0</whcd>
+  <totime>2019-02-14</totime>
+  <towhy>无</towhy>
+  <zzdjcshy>IT</zzdjcshy>
+  <cid>5</cid>
+</row>
+<row>
+  <id>629c9ded-302a-11e9-a077-4c3488ba4767</id>
+  <state>0</state>
+  <name>张三</name>
+  <sex>1</sex>
+  <age>21</age>
+  <id_card>152624199911111234</id_card>
+  <hjd>内蒙古</hjd>
+  <hyzk>0</hyzk>
+  <zzmm>0</zzmm>
+  <whcd>0</whcd>
+  <totime>2019-02-04</totime>
+  <towhy></towhy>
+  <zzdjcshy></zzdjcshy>
+  <cid>5</cid>
+</row>
+<row>
+  <id>81f39869-302a-11e9-a077-4c3488ba4767</id>
+  <state>0</state>
+  <name>张三</name>
+  <sex></sex>
+  <age>21</age>
+  <id_card>152624199911111234</id_card>
+  <hjd>内蒙古</hjd>
+  <hyzk>0</hyzk>
+  <zzmm>0</zzmm>
+  <whcd>1</whcd>
+  <totime>2019-02-04</totime>
+  <towhy></towhy>
+  <zzdjcshy></zzdjcshy>
+  <cid>5</cid>
+</row>
+<row>
+  <id>90139516-3059-11e9-a077-4c3488ba4767</id>
+  <state></state>
+  <name></name>
+  <sex></sex>
+  <age></age>
+  <id_card></id_card>
+  <hjd></hjd>
+  <hyzk></hyzk>
+  <zzmm></zzmm>
+  <whcd></whcd>
+  <totime></totime>
+  <towhy></towhy>
+  <zzdjcshy></zzdjcshy>
+  <cid>5</cid>
+</row>
+</data>

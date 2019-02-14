@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <id>12335234353452</id>
+  <num>01</num>
+  <name>人口管理</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <menuurl>:</menuurl>
+</row>
+<row>
+  <id>12335234353453</id>
+  <num>0101</num>
+  <name>各级统计查询</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/statistics.jsp</menuurl>
+</row>
+<row>
+  <id>12335234353454</id>
+  <num>0102</num>
+  <name>流动人口管理</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/flowPerson.jsp</menuurl>
+</row>
+<row>
+  <id>12335234353455</id>
+  <num>09</num>
+  <name>系统管理</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <menuurl>:</menuurl>
+</row>
+<row>
+  <id>12335234353456</id>
+  <num>0901</num>
+  <name>菜单管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/menu.jsp</menuurl>
+</row>
+<row>
+  <id>4b0b9f36-0a4b-11e7-9a4d-00ff823592a5</id>
+  <num>0902</num>
+  <name>角色管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/rule.jsp</menuurl>
+</row>
+<row>
+  <id>808b19b6-0a4b-11e7-9a4d-00ff823592a5</id>
+  <num>0903</num>
+  <name>权限管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/power.jsp</menuurl>
+</row>
+<row>
+  <id>8f3b1266-0a4b-11e7-9a4d-00ff823592a5</id>
+  <num>0904</num>
+  <name>账号管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/acc.jsp</menuurl>
+</row>
+<row>
+  <id>a797578d-0a4b-11e7-9a4d-00ff823592a5</id>
+  <num>0905</num>
+  <name>密码管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/updatepws.jsp</menuurl>
+</row>
+<row>
+  <id>ccc78f7a-0a4b-11e7-9a4d-00ff823592a5</id>
+  <num>0906</num>
+  <name>组织机构</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/organization.jsp</menuurl>
+</row>
+<row>
+  <id>3f4d02ae-303d-11e9-a077-4c3488ba4767</id>
+  <num>0103</num>
+  <name>建筑管理</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/countrybuilding.jsp</menuurl>
+</row>
+<row>
+  <id>4</id>
+  <num>04</num>
+  <name>资源管理</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <menuurl>:</menuurl>
+</row>
+<row>
+  <id>5</id>
+  <num>05</num>
+  <name>社会事务</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <menuurl>:</menuurl>
+</row>
+<row>
+  <id>6</id>
+  <num>06</num>
+  <name>党群管理</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <menuurl>:</menuurl>
+</row>
+<row>
+  <id>18a30400-304c-11e9-a077-4c3488ba4767</id>
+  <num>0907</num>
+  <name>辖区管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/area.jsp</menuurl>
+</row>
+<row>
+  <id>e475bce2-304d-11e9-a077-4c3488ba4767</id>
+  <num>0501</num>
+  <name>通讯管理</name>
+  <father_num>05</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/communication.jsp</menuurl>
+</row>
+<row>
+  <id>4522b674-3050-11e9-a077-4c3488ba4767</id>
+  <num>0502</num>
+  <name>脱贫管理</name>
+  <father_num>05</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/countypoverty.jsp</menuurl>
+</row>
+<row>
+  <id>7d16eb31-3050-11e9-a077-4c3488ba4767</id>
+  <num>0908</num>
+  <name>字典管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/dictionary.jsp</menuurl>
+</row>
+<row>
+  <id>a57ed51b-3050-11e9-a077-4c3488ba4767</id>
+  <num>0909</num>
+  <name>审核管理</name>
+  <father_num>09</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/examine.jsp</menuurl>
+</row>
+<row>
+  <id>f327c9f5-3050-11e9-a077-4c3488ba4767</id>
+  <num>0104</num>
+  <name>家庭信息管理</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/familyMessage.jsp</menuurl>
+</row>
+<row>
+  <id>31b1f492-3051-11e9-a077-4c3488ba4767</id>
+  <num>0105</num>
+  <name>家庭信息查询</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/familyquery.jsp</menuurl>
+</row>
+<row>
+  <id>5f3b4b18-3051-11e9-a077-4c3488ba4767</id>
+  <num>0106</num>
+  <name>流动人口查看</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/floating.jsp</menuurl>
+</row>
+<row>
+  <id>909ce47c-3051-11e9-a077-4c3488ba4767</id>
+  <num>0107</num>
+  <name>集体收支管理</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/groupfinance.jsp</menuurl>
+</row>
+<row>
+  <id>da6f5fa2-3051-11e9-a077-4c3488ba4767</id>
+  <num>0401</num>
+  <name>土地管理</name>
+  <father_num>04</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/land_industry.jsp</menuurl>
+</row>
+<row>
+  <id>1c672686-3052-11e9-a077-4c3488ba4767</id>
+  <num>0601</num>
+  <name>村官信息</name>
+  <father_num>06</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/officer.jsp</menuurl>
+</row>
+<row>
+  <id>5d0b7301-3052-11e9-a077-4c3488ba4767</id>
+  <num>0602</num>
+  <name>离任干部管理</name>
+  <father_num>06</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/outgoing.jsp</menuurl>
+</row>
+<row>
+  <id>964255c6-3052-11e9-a077-4c3488ba4767</id>
+  <num>0108</num>
+  <name>人口查询</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/population.jsp</menuurl>
+</row>
+<row>
+  <id>e95fa30f-3052-11e9-a077-4c3488ba4767</id>
+  <num>0503</num>
+  <name>文章管理</name>
+  <father_num>05</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/releasequery.jsp</menuurl>
+</row>
+<row>
+  <id>44c4682e-3056-11e9-a077-4c3488ba4767</id>
+  <num>0402</num>
+  <name>乡村信息管理</name>
+  <father_num>04</father_num>
+  <level>2</level>
+  <menuurl>/jsp/management/villagemessage.jsp</menuurl>
+</row>
+</data>

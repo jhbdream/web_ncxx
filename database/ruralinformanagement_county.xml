@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <id>1</id>
+  <num>01</num>
+  <name>内蒙古</name>
+  <father_num>root</father_num>
+  <level>1</level>
+  <checked>NULL</checked>
+</row>
+<row>
+  <id>2</id>
+  <num>0101</num>
+  <name>乌兰察布</name>
+  <father_num>01</father_num>
+  <level>2</level>
+  <checked>NULL</checked>
+</row>
+<row>
+  <id>3</id>
+  <num>010101</num>
+  <name>卓资县</name>
+  <father_num>0101</father_num>
+  <level>3</level>
+  <checked>NULL</checked>
+</row>
+<row>
+  <id>4</id>
+  <num>01010101</num>
+  <name>梨花镇</name>
+  <father_num>010101</father_num>
+  <level>4</level>
+  <checked>NULL</checked>
+</row>
+<row>
+  <id>5</id>
+  <num>0101010101</num>
+  <name>榆树营村</name>
+  <father_num>01010101</father_num>
+  <level>5</level>
+  <checked>NULL</checked>
+</row>
+</data>
