@@ -1,0 +1,19 @@
+土地管理
+添加信息点保存没有反应
+
+	<select id="types">
+    		<option value="">--请选择--</option>
+    	 	<option value="1">最新咨询</option>
+    	 	<option value="2">政策法规</option>
+    	 	<option value="3">社会事务</option>
+    	 	<option value="4">党群管理</option>
+    	 	<option value="5">通知公告</option>
+    	 </select>
+    	 <span>状态:</span>
+    	 	<select id="state">
+    	 	<option value="">--请选择--</option>
+    	 	<option value="1">待审核</option>
+    	 	<option value="2">通过</option>
+    	 	<option value="3">未通过</option>
+    	 	<option value="4">草稿</option>
+    	 </select>
