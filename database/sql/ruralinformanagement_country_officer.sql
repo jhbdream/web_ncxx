@@ -1,1 +1,1 @@
-INSERT INTO ruralinformanagement.country_officer (id, name, sex, birthday, whcd, phonenumber, state, intime, lztime, operate_time, operator, cid) VALUES ('4810b8d0-fba8-4d02-8758-5765e3222a38', '1', '1', '', '2', '', '', null, '1', '2019-02-14 21:17:44', 'adminuser', '5');
+insert into ruralinformanagement.country_officer (id, name, sex, birthday, whcd, phonenumber, state, intime, lztime, operate_time, operator, cid) values ('4810b8d0-fba8-4d02-8758-5765e3222a38', 1, 1, '', 2, '', '', null, 1, '2019-02-14 21:17:44', 'adminuser', 5);

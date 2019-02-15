@@ -1,0 +1,1 @@
+insert into ruralinformanagement.person_message (id, yhzgx, xm, xb, mz, csrq, zzmm, rdsj, szdzb, hyzk, jkzk, whcd, cyzt, zylx, gzdw, sfzhm, sjh, fid) values ('130c2c57-3068-11e9-a077-4c3488ba4767', '', 'ww', '', 'w', '1999-9-9', '', null, '', '', '', '', '', '', '', 55, 'd', '08298346-cbcf-41b7-abcf-f144024a6be1');

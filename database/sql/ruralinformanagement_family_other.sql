@@ -1,0 +1,1 @@
+insert into ruralinformanagement.family_other (id, zazk, jszk, fbyzt, zyfwqk, jtczzyk, fid) values ('927cdb0a-3066-11e9-a077-4c3488ba4767', '', '', '', '', '', '08298346-cbcf-41b7-abcf-f144024a6be1');

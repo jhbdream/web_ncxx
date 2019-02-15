@@ -1,1 +1,1 @@
-INSERT INTO ruralinformanagement.acc_country (aid, cid) VALUES ('1', '1');
+insert into ruralinformanagement.acc_country (aid, cid) values (1, 1);

@@ -1,1 +1,1 @@
-INSERT INTO ruralinformanagement.country_group_finance (id, type, privce, message, operate_time, operator, cid) VALUES ('363bc3f0-0f59-49da-8339-2142e899f3c6', '2', 1, '', '2019-02-14 21:11:20', 'adminuser', '5');
+insert into ruralinformanagement.country_group_finance (id, type, privce, message, operate_time, operator, cid) values ('363bc3f0-0f59-49da-8339-2142e899f3c6', 2, 1, '', '2019-02-14 21:11:20', 'adminuser', 5);

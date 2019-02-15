@@ -1,1 +1,1 @@
-INSERT INTO ruralinformanagement.rule_menu (rid, mid) VALUES ('1', '1');
+insert into ruralinformanagement.rule_menu (rid, mid) values (1, 1);

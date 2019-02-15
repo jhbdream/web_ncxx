@@ -1,0 +1,1 @@
+insert into ruralinformanagement.family_shebao (id, yiliaobx, yanglaobx, yfdx, glbt, db, wb, guer, cjr, tsrq, dbjz, lsjz, zfbz, shjk, ww, fid) values ('927043d6-3066-11e9-a077-4c3488ba4767', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '08298346-cbcf-41b7-abcf-f144024a6be1');
