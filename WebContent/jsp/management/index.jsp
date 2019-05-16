@@ -258,7 +258,7 @@ function exit(){
     	</div>
     </div>
     <div region="south" style="height:40px;font-size: 18px;text-align: center;color: #3797ca"><!-- 下 -->
-    	Copyright &copy; 2017 - 版权所有：未经授权禁止转载、摘编、复制或建立镜像...如有违反，追究法律责任。
+    	Copyright &copy; 2019 - 村官助手项目组
     </div>  
     <div data-options="region:'west',title:'导航菜单',split:true"  style="width:250px;"><!-- 左 -->
     	<div id="wsmu" class="easyui-accordion"></div>

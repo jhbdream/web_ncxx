@@ -21,7 +21,7 @@
                     <td align="center"  class="Font12blue"><img src="<c:url value='/image/red.png'/>"/></td>
                 </tr>
                 <tr>
-                    <td align="center"  class="Font12blue" style="padding-top:20px;">XXX版权所有</td>
+                    <td align="center"  class="Font12blue" style="padding-top:20px;">电信学院村官助手项目版权所有</td>
                  </tr>
                 <tr>
                     <td align="center" class="Font12blue" style="padding-bottom: 20px;">建议将显示器设置在1366*768分辨率</td>
