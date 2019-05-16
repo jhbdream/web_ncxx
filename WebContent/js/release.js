@@ -211,7 +211,7 @@ function deletedata(id) {
 	var obj= new Object;
 	obj.state=this["state"];
 	 
-	if(obj.state==4){
+	if(1){
        
 			var delIndex=datagrid.datagrid("getRowIndex",this[id]);  
 			datagrid.datagrid("deleteRow",delIndex);
@@ -225,17 +225,17 @@ function deletedata(id) {
 	}else if(rows.length==0){
 		$.messager.alert("提示", "请选择要删除的行！", "info");   
 	}
-	$(rows).each(function(){
-		var obj= new Object;
-		obj.state=this["state"];
-		if(obj.state==1||obj.state==2||obj.state==3){
-			alert(count);
-			count++;
-		}
-	});
-	if(count!=0){
-		$.messager.alert("提示", "有"+count+"条数据无权操作！", "info"); 
-	}
+	// $(rows).each(function(){
+	// 	var obj= new Object;
+	// 	obj.state=this["state"];
+	// 	if(obj.state==1||obj.state==2||obj.state==3){
+	// 		alert(count);
+	// 		count++;
+	// 	}
+	// });
+	// if(count!=0){
+	// 	$.messager.alert("提示", "有"+count+"条数据无权操作！", "info");
+	// }
 }
 function saveDataGrid(posturl){
 	//alert("保存");
