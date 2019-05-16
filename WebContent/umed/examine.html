@@ -138,13 +138,13 @@ $(document).ready(function(){
 	function updateThis(){
 		var afterEqual = getQueryString("Id");
 		 var urlObj = "/web_ncxx_war_exploded/updateE.m?article.state=2&article.id="+afterEqual;
-		 $("form").attr("action",urlObj).submit();
+		$.post(urlObj);
 		 // window.close();
 	}
 	function updateThis1(){
 		var afterEqual = getQueryString("Id");
 		var urlObj = "/web_ncxx_war_exploded/updateE.m?article.state=3&article.id="+afterEqual;
-		$("form").attr("action",urlObj).submit();
+		$.post(urlObj);
 	}
 </script>
 </head>
