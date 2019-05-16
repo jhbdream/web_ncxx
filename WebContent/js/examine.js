@@ -55,6 +55,18 @@ function release(tabTop,rowurl,posturl,rowtmp,hidcolumns,id,formattercol,formart
 					}
 				});
 			});
+
+			$(function(){
+				if(window.showModalDialog == undefined){
+					//alert("初始化的时候,判断window.showModalDialog是否存在")
+					window.showModalDialog = function(url,mixedVar,features){
+						window.hasOpenWindow = true;
+						if(mixedVar) var mixedVar = mixedVar;
+						if(features) var features = features.replace(/(dialog)|(px)/ig,"").replace(/;/g,',').replace(/\:/g,"=");
+						window.myNewWindow = window.open(url,"_blank",features);
+					}
+				}
+			});
 			datagrid = $('#dg').datagrid({ 
 		        /*title:'应用系统列表', */
 		        //iconCls:'icon-edit',//图标 
@@ -155,12 +167,13 @@ function updatetmp(id){
 			var delIndex=datagrid.datagrid("getRowIndex",this.id); 
 			var obj= new Object;
 			obj.name=this.id;
-		var urls="/ruInforM/updateE.m?article.state=5&article.id="+obj.name;
+		var urls="/web_ncxx_war_exploded/updateE.m?article.state=5&article.id="+obj.name;
 		//window.location.href=urls;
 		$.post(urls);
-		var someValue=window.showModalDialog("../../umed/examine.html",obj,"dialogWidth=1090px;dialogHeight=500px;dialogLeft=270px;dialogTop=220px;status=no;help=no;scrollbars=no;");
+		var someValue=window.showModalDialog("../../umed/examine.html?Id="+obj.name,obj,"dialogWidth=1090px;dialogHeight=500px;dialogLeft=270px;dialogTop=220px;status=no;help=no;scrollbars=no;");
+
+
             window.location.reload();
 		});
 	}
 }
-

@@ -9,8 +9,8 @@
     <script type="text/javascript" charset="utf-8" src="umeditor.config.js"></script>
     <script type="text/javascript" charset="utf-8" src="umeditor.min.js"></script>
     <script type="text/javascript" src="lang/zh-cn/zh-cn.js"></script>
-    <script type="text/javascript" src="/js/jquery-1.8.3.js"></script>
-    <script type="text/javascript" src="/js/jquery-easyui-1.5/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-easyui-1.5/jquery.min.js"></script>
 	
 	<script src="../js/Date/calendar.js"></script>
 	<script src="../js/Date/WdatePicker.js"></script>
@@ -114,9 +114,15 @@
         }
     </style>
 <script type="text/javascript">
+	function getQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) return unescape(r[2]); return null;
+	}
 $(document).ready(function(){
-	 var obj = window.dialogArguments;
-	  $.post("ruInforM/query.m?id="+obj.name,function(data){
+	 	var obj = window.dialogArguments;
+		var afterEqual = getQueryString("Id");
+	  $.post("ruInforM/query.m?id="+afterEqual,function(data){
 		 		$("#biaoti").attr("value",data[0].titles);
 		 		$("#myEditor").append(data[0].texts);
 		 		$("#shijian").attr("value",data[0].riqis);
@@ -130,16 +136,15 @@ $(document).ready(function(){
 <script type="text/javascript">
 	//给按钮添加一个提交方法
 	function updateThis(){
-		var obj = window.dialogArguments;
-		 var urlObj = "ruInforM/UpExamine.m?article.state=2&article.id="+obj.name;
+		var afterEqual = getQueryString("Id");
+		 var urlObj = "/web_ncxx_war_exploded/updateE.m?article.state=2&article.id="+afterEqual;
 		 $("form").attr("action",urlObj).submit();
-		 window.close();
+		 // window.close();
 	}
 	function updateThis1(){
-		var obj = window.dialogArguments;
-		 var urlObj = "ruInforM/UpExamine.m?article.state=3&article.id="+obj.name;
-		 $("form").attr("action",urlObj).submit();
-		 window.close();
+		var afterEqual = getQueryString("Id");
+		var urlObj = "/web_ncxx_war_exploded/updateE.m?article.state=3&article.id="+afterEqual;
+		$("form").attr("action",urlObj).submit();
 	}
 </script>
 </head>
@@ -216,4 +221,3 @@ $(document).ready(function(){
 </script>
 </body>
 </html>
-
