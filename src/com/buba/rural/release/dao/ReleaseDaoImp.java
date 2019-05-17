@@ -16,9 +16,9 @@ public class ReleaseDaoImp extends SqlSessionDaoSupport implements IReleaseDao {
 		Map map = new HashMap();
 		map.put("article",article);
 		map.put("pageBean", pageBean);
-		//»ñÈ¡×Ü¼ÇÂ¼Êý£¬
+		//ï¿½ï¿½È¡ï¿½Ü¼ï¿½Â¼ï¿½ï¿½ï¿½ï¿½
 		pageBean.setTotalrecord(getSqlSession().selectOne("com.buba.rural.pojo.Article.queryCount",map));
-		//²éÑ¯¼ÇÂ¼
+		//ï¿½ï¿½Ñ¯ï¿½ï¿½Â¼
 		pageBean.setBeanList(getSqlSession().selectList("com.buba.rural.pojo.Article.queryList",map));
 		return pageBean;
 	}
@@ -33,8 +33,8 @@ public class ReleaseDaoImp extends SqlSessionDaoSupport implements IReleaseDao {
 	public Article findquery(String id) {
 		return this.getSqlSession().selectOne("com.buba.rural.pojo.Article.findquery",id);
 	}
-	public String deleted(Article[] article) {
-		this.getSqlSession().insert("com.buba.rural.pojo.Article.deleted",article);
+	public String deleted(Article article) {
+		//this.getSqlSession().delete("com.buba.rural.pojo.Article.deleted",article);
 		return null;
 	}
 
@@ -47,9 +47,9 @@ public class ReleaseDaoImp extends SqlSessionDaoSupport implements IReleaseDao {
 	public PageBean_easyui queryExamine(PageBean_easyui pageBean) {
 		Map map = new HashMap();
 		map.put("pageBean", pageBean);
-		//»ñÈ¡×Ü¼ÇÂ¼Êý£¬
+		//ï¿½ï¿½È¡ï¿½Ü¼ï¿½Â¼ï¿½ï¿½ï¿½ï¿½
 		pageBean.setTotalrecord(getSqlSession().selectOne("com.buba.rural.pojo.Article.Countexamine",map));
-		//²éÑ¯¼ÇÂ¼
+		//ï¿½ï¿½Ñ¯ï¿½ï¿½Â¼
 		pageBean.setBeanList(getSqlSession().selectList("com.buba.rural.pojo.Article.queryexamine",map));
 		return pageBean;
 	}

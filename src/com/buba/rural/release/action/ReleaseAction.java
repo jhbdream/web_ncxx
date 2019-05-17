@@ -31,7 +31,7 @@ public class ReleaseAction {
 	private String id;
 	
 	
-	//·¢²¼Ìí¼Ó
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public String findadd(){
 		article.setRemarks("");
 		releaseservice.add(article);
@@ -55,7 +55,7 @@ public class ReleaseAction {
 			pw.close();
 		return null;
 	}
-	//×Ö·û´®³öÏÖ»Ø³µ·û£¬jsonÐ£Ñé²»Í¨¹ý
+	//ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»Ø³ï¿½ï¿½ï¿½ï¿½ï¿½jsonÐ£ï¿½é²»Í¨ï¿½ï¿½
 	public String findquery() throws IOException{
 		HttpServletRequest request=ServletActionContext.getRequest();
 		HttpServletResponse response=ServletActionContext.getResponse();
@@ -77,14 +77,14 @@ public class ReleaseAction {
 			flow.setOvertime(overtime);
 		}
 		
-		//µ±Ç°Ò³  
+		//ï¿½ï¿½Ç°Ò³  
         int intPage = Integer.parseInt((page == null || page == "0") ? "1":page);  
-        //Ã¿Ò³ÏÔÊ¾ÌõÊý  
+        //Ã¿Ò³ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½  
         int number = Integer.parseInt((rows == null || rows == "0") ? "10":rows);  
-        //Ã¿Ò³µÄ¿ªÊ¼¼ÇÂ¼  µÚÒ»Ò³Îª1  µÚ¶þÒ³Îªnumber +1   
+        //Ã¿Ò³ï¿½Ä¿ï¿½Ê¼ï¿½ï¿½Â¼  ï¿½ï¿½Ò»Ò³Îª1  ï¿½Ú¶ï¿½Ò³Îªnumber +1   
         int start = (intPage-1)*number;  
         
-        //Æ´½ÓURLµÄÍ¬Ê±½âÂë
+        //Æ´ï¿½ï¿½URLï¿½ï¿½Í¬Ê±ï¿½ï¿½ï¿½ï¿½
 		PageBean_easyui pageBean = new PageBean_easyui();
 		pageBean.setPagecode(intPage);
 		pageBean.setPagesize(number);
@@ -95,9 +95,9 @@ public class ReleaseAction {
 		
 		pageBean=releaseservice.query(flow,pageBean);
 		
-		Map<String, Object> jsonMap = new HashMap<String, Object>();//¶¨Òåmap 
-		jsonMap.put("total", pageBean.getTotalrecord());//total¼ü ´æ·Å×Ü¼ÇÂ¼Êý£¬±ØÐëµÄ  
-        jsonMap.put("rows", pageBean.getBeanList());//rows¼ü ´æ·ÅÃ¿Ò³¼ÇÂ¼ list  
+		Map<String, Object> jsonMap = new HashMap<String, Object>();//ï¿½ï¿½ï¿½ï¿½map 
+		jsonMap.put("total", pageBean.getTotalrecord());//totalï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
+        jsonMap.put("rows", pageBean.getBeanList());//rowsï¿½ï¿½ ï¿½ï¿½ï¿½Ã¿Ò³ï¿½ï¿½Â¼ list  
 		response.setContentType("text/html;charset=utf-8");
 		response.setHeader("Cache-Control", "no-cache");
 		PrintWriter out = response.getWriter();
@@ -107,16 +107,16 @@ public class ReleaseAction {
 	}
 	
 	public String findSave(){
-		HttpServletResponse response=ServletActionContext.getResponse();
-		JSONArray jsonArray = null;
-		Article[] article = null;
-		String finall = null;
-		//É¾³ý
-		if(deleted!=null && !"".equals(deleted)){
-			jsonArray = JSONArray.fromObject(deleted);
-			article = (Article[]) JSONArray.toArray(jsonArray,Article.class);
-	 		finall = releaseservice.deleted(article);
-		}
+//		HttpServletResponse response=ServletActionContext.getResponse();
+//		JSONArray jsonArray = null;
+//		Article[] article = null;
+//		String finall = null;
+//		//É¾ï¿½ï¿½
+//		if(deleted!=null && !"".equals(deleted)){
+//			jsonArray = JSONArray.fromObject(deleted);
+//			article = (Article[]) JSONArray.toArray(jsonArray,Article.class);
+//	 		finall = releaseservice.deleted(article);
+//		}
 		return null;
 	}
 	public String queryExamine() throws IOException{
@@ -153,7 +153,7 @@ public class ReleaseAction {
 			return null;
 		}
 	/**
-	 * ²éÑ¯×Öµä±í»ñÈ¡ÏÂÀ­ÄÚÈÝ
+	 * ï¿½ï¿½Ñ¯ï¿½Öµï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 * @throws IOException
 	 */
@@ -177,6 +177,11 @@ public class ReleaseAction {
 	public String updateE(){
 		releaseservice.updateE(article);
 	 	return null;
+	}
+
+	public String 	deleted(){
+		releaseservice.deleted(article);
+		return null;
 	}
 	public Article getArticle() {
 		return article;
@@ -211,7 +216,7 @@ public class ReleaseAction {
 		this.id = id;
 	}
 	/**
-	 * ×¢Èë
+	 * ×¢ï¿½ï¿½
 	 * @param releaseservice
 	 */
 	public void setReleaseservice(IReleaseService releaseservice) {

@@ -196,11 +196,11 @@ var editRow = undefined; //定义全局变量：当前编辑的行
 		//var delIndex=datagrid.datagrid("getRowIndex",this[id]); 
 		var obj= new Object;
 		obj.state=this["state"];
-		 alert(obj.state);
-		if(obj.state==4){
+		if(1){
 				var delIndex=datagrid.datagrid("getRowIndex",this.id);  
 				datagrid.datagrid("deleteRow",delIndex);
-		
+				var urlObj = "/web_ncxx_war_exploded/deleted.m?article.state=4&article.id="+this.id;
+				$.post(urlObj);
 		} /*else{ 
 			$.messager.alert("提示", "无权操作！", "info"); 
 			
@@ -210,17 +210,17 @@ var editRow = undefined; //定义全局变量：当前编辑的行
 		}else if(rows.length==0){
 			$.messager.alert("提示", "请选择要删除的行！", "info");   
 		}
-		$(rows).each(function(){
-			var obj= new Object;
-			obj.state=this["state"];
-			if(obj.state==1||obj.state==2||obj.state==3||obj.state==5){
-				alert(count);
-				count++;
-			}
-		});
-		if(count!=0){
-			$.messager.alert("提示", "有"+count+"条数据无权操作！", "info"); 
-		}
+		// $(rows).each(function(){
+		// 	var obj= new Object;
+		// 	obj.state=this["state"];
+		// 	if(obj.state==1||obj.state==2||obj.state==3||obj.state==5){
+		// 		alert(count);
+		// 		count++;
+		// 	}
+		// });
+		// if(count!=0){
+		// 	$.messager.alert("提示", "有"+count+"条数据无权操作！", "info");
+		// }
 	}
 	//保存删除
 	function saveUpdated(){

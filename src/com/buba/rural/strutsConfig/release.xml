@@ -21,7 +21,9 @@
 			</action>
 			<action name="updateE" class="releaseAction" method="updateE">
 			</action>
-			
+			<action name="deleted" class="releaseAction" method="deleted">
+			</action>
+
 		</package>
 		<package name="releas" namespace="/Examine" extends="struts-default">
 			<action name="findOption" class="releaseAction" method="findOption"></action>

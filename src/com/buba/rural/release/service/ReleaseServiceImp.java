@@ -37,7 +37,7 @@ public class ReleaseServiceImp implements IReleaseService{
 	public PageBean_easyui query(Article article,PageBean_easyui pageBean) {
 		return releaseDao.query(article,pageBean);
 	}
-	public String deleted(Article[] article) {
+	public String deleted(Article article) {
 		return releaseDao.deleted(article);
 	}
 	public Article findquery(String id) {
